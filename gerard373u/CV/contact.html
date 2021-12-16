@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <link href="css/all.css" rel="stylesheet"> <!--Chargement des images -->
+	    <meta charset="utf-8" />
+	    <title>Projet WEB : CV</title>
+        <link rel="stylesheet" media="screen and (min-width:721px)" href="style.css" />
+        <link rel="stylesheet" media="screen and (max-width:720px)" href="mobile.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-content">
+                <div class="header-logo"> <!--Classe pour le logo-->
+                    <img src="iconetitre.png">
+                </div>
+                <div class="header-title"> <!--Titre-->
+                    <h1>Curriculum Vitae</h1>
+                    <p>Guillaume GERARD</p>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <nav class="menu"> <!--Menu-->
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-user"></i>Accueil</a></li>
+                    <li><a href="realisation.html"><i class="fas fa-file-image"></i>Autre Réalisation</a></li>
+                    <li><a href="Guillaume_GERARD_CV.pdf" target="_blank" download="Guillaume_GERARD_CV"><i class="fas fa-print"></i>Format PDF</a></li>
+                </ul>
+            </nav>
+            <div class="content">
+                <h2>Contactez-moi</h2>
+                <fieldset>
+                    <legend> Information personnelles</legend>
+                        <label for="nom">Nom :</label>
+                            <input type="text" id="nom" placeholder="Ex. GERARD"><br>
+                        <label for="prenom">Prénom :</label>
+                            <input type="text" id="nom" placeholder="Ex. Guillaume"><br>
+                        <label for="civilite">Civilité :</label>
+                            <input type="radio" name="html"checked>
+                            <label for="M">M.</label>
+                            <input type="radio" name="html"checked>
+		                    <label for="Mm.">Mm.</label><br>
+                        <label for="adresse">Adresse e-mail :</label>
+                            <input type='text' id="adresse" placeholder="Ex. guillaume.gerard2@etu.univ-lorraine.fr"><br>
+                    </fieldset>
+                <fieldset>	
+                    <legend>Avis général :</legend><br>
+                        <p>Qualité du site :</p>
+                        <input type="radio" name="info"checked>
+                        <label for="nul">Médiocre</label><br>
+                        <input type="radio" name="info">
+                        <label for="moyen">Correct</label><br>
+                        <input type="radio" name="info">
+                        <label for="bon">Bon</label><br>
+                    
+                        <p>Laissez nous votre avis !</p>
+                
+                        <label for="multiligne">Avis :</label><br>
+                        <textarea name="multiligne" id="multiligne" rows="7" cols="40">
+                        </textarea>
+                        <br>
+                        <input type="reset" value="Remettre à zéro"> 
+                        <input type="submit" value="Soumettre">     
+                    </fieldset>
+            </div>
+        </div>
+    </body>
+</html>
+
+<!-- 
+    GERARD Guillaume
+
+⠀⠀⠀⠰⡿⠿⠛⠛⠻⠿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣀⣄⡀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣤⣄⣀⡀⠀
+⠀⠀⠀⠀⠀⠀⢸⣿⣿⣷⠀⠀⠀⠀⠀⠛⠛⣿⣿⣿⡛⠿⠷
+⠀⠀⠀⠀⠀⠀⠘⠿⠿⠋⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⠇⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠁ ⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⣿⣷⣄⠀⢶⣶⣷⣶⣶⣤⣀ ⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠈⠙⠻⠗ ⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⣰⣿⣿⣿⠀⠀⠀⠀⢀⣀⣠⣤⣴⣶⡄⠀⠀⠀⠀⠀
+⠀⣠⣾⣿⣿⣿⣥⣶⣶⣿⣿⣿⣿⣿⠿⠿⠛⠃⠀⠀⠀
+⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡁ ⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁ ⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠛⢿⣿⣿⣿⣿⣿⣿⡿⠟ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠉⠉⠉

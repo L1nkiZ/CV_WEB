@@ -1,0 +1,7 @@
+rgb(67, 137, 162); bleu 
+rgb(92, 37, 141); violet
+rgb(104, 111, 140); bleu gris
+
+https://www.pierre-giraud.com/html-css-apprendre-coder-cours/creation-page-cv-responsive/
+
+https://fontawesome.com/
